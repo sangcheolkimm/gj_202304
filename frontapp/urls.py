@@ -26,7 +26,18 @@ urlpatterns = [
     path('css_3/',views.cssView3), 
     path('javascript1/',views.cssView4),
     path('javascript2/',views.cssView5),  
-    path('javascript3/',views.cssView6)  
-
+    path('javascript3/',views.cssView6),  
+    path('01_html/',views.htmlview01),  
+    path('02_link/',views.linkview),  
+    path('03_link/',views.linkview2),  
+    path('04_css/',views.cssview),  
+    path('05_table/',views.tableview),  
+    path('06_table/',views.tableview2),  
+    path('07_ul/',views.ulview),  
+    path('08_div/',views.ulview1),  
+    path('09_div/',views.divview2),  
+    path('10_iframe/',views.iframeview),  
+    path('01_table/',views.cssTableview)  
+    
 ]
 

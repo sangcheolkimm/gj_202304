@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:::html 개요:::</title>
+
+<script type="text/javascript">
+    function gogo(url){
+        location.href=url;
+    }
+</script>    
+</head>
+<body>
+    <pre>
+        <button onclick="javascript:location.href='http://www.daum.net';">
+        '다음 링크'</button>
+        <hr/>
+        <button onclick="javascript:location.href='http://www.naver.com';">
+        '네이버 링크'</button>
+        <hr/>
+        <button onclick="javascript:location.href='http://www.google.com';">
+        '구글 링크'</button>     
+        <hr/>  
+        <button onclick="javascript:location.href='/front/01_html/';">
+        '<img src='/static/frontapp/images/img1.jpg' 
+        width='200' height='200'>'</button>
+    
+        <a href="javascript:gogo('http://www.naver.com')">
+        [네이버 바로가기]</a>
+        02_link 가기:
+        <a href="javascript:gogo('/front/02_link/')">
+        02_link바로가기</a>
+
+    </pre>
+</body>
+</html>

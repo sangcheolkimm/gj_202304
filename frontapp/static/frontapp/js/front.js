@@ -23,3 +23,8 @@ function goCss(no){
     alert("goCss() 함수가 호출되었습니다.");
     location.href="/front/css_"+no+"/";
 }    
+
+function gogo(){
+    alert("gogo() 함수가 호출되었습니다.");
+    location.href="/front/02_link";
+}

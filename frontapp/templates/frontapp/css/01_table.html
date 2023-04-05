@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:::테이블 행 단위 색 입히기:::</title>
+    <style>
+        table {
+            /* 테이블의 테두리 라인 설정 */
+          
+           /* 두줄 라인을 한줄로 설정 */
+           border-collapse: collapse;
+           width: 100%;
+        }
+        th, td { 
+            /*안쪽 여백 주기 */
+            padding: 15px;
+            margin: 15px;
+            /*가운데 정렬하기 */
+            text-align:center; 
+            
+        }
+        /*tr 태그 영역에 마우스가 올라갔을 때 스타일을 지정하는 방식 */
+        tr:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h3>테이블 행 단위 색 입히기</h3>
+    <hr/>
+    <table border="1">
+        <tr>
+            <th>번호</th>
+            <th>이름</th>
+            <th>주소</th>
+        </tr>
+        <tr>
+            <th>01</th>
+            <th>홍현희</th>
+            <th>광주</th>
+        </tr>
+        <tr>
+            <th>02</th>
+            <th>김기식</th>
+            <th>여수</th>
+        </tr>
+        <tr>
+            <th>03</th>
+            <th>남문희</th>
+            <th>대구</th>
+        </tr>
+        <tr>
+            <th>04</th>
+            <th>황희정</th>
+            <th>부산</th>
+        </tr>
+    </table>
+</body>
+</html>
