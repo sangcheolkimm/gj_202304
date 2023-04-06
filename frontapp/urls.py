@@ -37,7 +37,14 @@ urlpatterns = [
     path('08_div/',views.ulview1),  
     path('09_div/',views.divview2),  
     path('10_iframe/',views.iframeview),  
-    path('01_table/',views.cssTableview)  
+    path('01_table/',views.cssTableview),  
+    path('02_table/',views.cssTableview2),  
+    path('03_table/',views.cssNavview2),  
+    path('01_jsInputForm/',views.jsInputFormView),  
+    path('02_login/',views.jsLogin),  
+    path('03_radioButton/',views.radioButtonView),  
+    path('04_radio/',views.jsRadio),  
+    path('05_checkBox/',views.checkBoxView),  
     
 ]
 
